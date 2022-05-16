@@ -226,6 +226,10 @@
     .item-container-service {
         margin-top: 70px!important;
     }
+
+    .service-title, .service-description {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 574px) {
