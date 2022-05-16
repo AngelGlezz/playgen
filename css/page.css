@@ -183,7 +183,7 @@
 
 .service-description {
     font-family: "Futura Light", sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     color: #fff;
 }
 
@@ -224,11 +224,7 @@
 
 @media screen and (max-width: 767px) {
     .item-container-service {
-        margin-top: 50px!important;
-    }
-
-    .service-title {
-        text-align: center;
+        margin-top: 70px!important;
     }
 }
 
