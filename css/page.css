@@ -101,7 +101,7 @@
 }
 
 .text-cover {
-    background-image: url(../images/texto.png);
+    background-image: url(../images/texto_2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -234,7 +234,7 @@
 
 @media screen and (max-width: 574px) {
     .text-cover {
-        background-image: url(../images/texto_m.png);
+        background-image: url(../images/texto_m_2.png);
         height: 250px;
     }
 
