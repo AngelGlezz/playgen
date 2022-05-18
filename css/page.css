@@ -270,25 +270,22 @@
         width: 160px;
         height: 24px;
         float: none;
-        position: relative;
-        right: 0px;
+        position: absolute;
         left: 0px;
-        top: -45px;
-        margin: 0px auto;
     }
     
     .logo {
         width: 130px;
         height: 18px;
-        float: none;
-        position: absolute;
-        right: 15px;
     }
 
     .copyright {
         float: none;
-        position: absolute;
-        left: 15px;
+        position: relative;
+        right: 0px;
+        left: 0px;
+        top: 75px;
+        margin: 0px auto;
     }
 
     .icon-main {
@@ -297,6 +294,6 @@
     }
 
     #footer-section {
-        padding: 90px 0px 50px 0px;
+        padding: 50px 0px 90px 0px;
     }
 }
