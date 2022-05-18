@@ -284,8 +284,9 @@
         position: relative;
         right: 0px;
         left: 0px;
-        top: 75px;
+        top: 65px;
         margin: 0px auto;
+        width: 110px;
     }
 
     .icon-main {
