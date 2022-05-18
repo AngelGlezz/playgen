@@ -222,6 +222,16 @@
     float: right;
 }
 
+.logo-under {
+    background-image: url(../images/underdog-h.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 200px;
+    height: 25px;
+    float: right;
+}
+
 @media screen and (max-width: 767px) {
     .item-container-service {
         margin-top: 70px!important;
@@ -255,14 +265,38 @@
         height: 30px;
         margin-left: 0px!important;
     }
+
+    .logo-under {
+        width: 160px;
+        height: 24px;
+        float: none;
+        position: relative;
+        right: 0px;
+        left: 0px;
+        top: -45px;
+        margin: 0px auto;
+    }
     
     .logo {
         width: 130px;
         height: 18px;
+        float: none;
+        position: absolute;
+        right: 15px;
+    }
+
+    .copyright {
+        float: none;
+        position: absolute;
+        left: 15px;
     }
 
     .icon-main {
         margin-right: 20px!important;
         margin-top: 10px;
+    }
+
+    #footer-section {
+        padding: 90px 0px 50px 0px;
     }
 }
